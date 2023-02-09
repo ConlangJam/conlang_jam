@@ -1,0 +1,29 @@
+body {
+  background-color: #FAF9F6;
+  padding: 10px 10rem;
+}
+
+.conlangs-container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: 20px;
+}
+.conlang-container {
+  width: 50%;
+  height: fit-content;
+  border: 1px double purple;
+  padding: 10px;
+}
+
+.conlang-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.abstract-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 3px 0;
+}
